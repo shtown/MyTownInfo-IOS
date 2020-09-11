@@ -21,23 +21,13 @@
 		0C7216281D93108C0049A891 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7216271D93108C0049A891 /* QuartzCore.framework */; };
 		0C72162A1D9310950049A891 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7216291D9310950049A891 /* SystemConfiguration.framework */; };
 		0C72162C1D93109F0049A891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C72162B1D93109F0049A891 /* UIKit.framework */; };
-		0C72163B1D9316230049A891 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C72163A1D9316230049A891 /* GoogleMapsBase.framework */; };
 		0C8DE63F1E6608CA009705CE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DE63E1E6608CA009705CE /* CalendarViewController.swift */; };
 		0C8E754B1D8AD8BA008AA187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E754A1D8AD8BA008AA187 /* AppDelegate.swift */; };
 		0C8E754D1D8AD8BA008AA187 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E754C1D8AD8BA008AA187 /* MasterViewController.swift */; };
 		0C8E754F1D8AD8BA008AA187 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E754E1D8AD8BA008AA187 /* DetailViewController.swift */; };
 		0C8E75521D8AD8BA008AA187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E75501D8AD8BA008AA187 /* Main.storyboard */; };
 		0C8E75571D8AD8BA008AA187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E75551D8AD8BA008AA187 /* LaunchScreen.storyboard */; };
-		0C925A8724BDF5D600FC7196 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C72161D1D9310670049A891 /* GLKit.framework */; };
-		0C925A8824BDF5E700FC7196 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7216251D9310860049A891 /* OpenGLES.framework */; };
-		0CA23C161DBFE50B006846F4 /* DropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA23C131DBFDF42006846F4 /* DropDown.framework */; };
-		0CA23C191DBFEB29006846F4 /* DropDown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA23C131DBFDF42006846F4 /* DropDown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0CB8D4041D93176D00C86131 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB8D4031D93176D00C86131 /* GoogleMapsBase.framework */; };
-		0CB8D4061D93177000C86131 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB8D4051D93177000C86131 /* GoogleMaps.framework */; };
-		0CB8D4081D93177300C86131 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB8D4071D93177300C86131 /* GoogleMapsCore.framework */; };
-		0CD49E2A24BDE04800AEDA7F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CD49E2924BDE04800AEDA7F /* GoogleMaps.bundle */; };
 		0CD7EB271DD3707C006A1427 /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7EB261DD3707C006A1427 /* CustomInfoWindow.xib */; };
-		0CD7EB2B1DD37437006A1427 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7EB2A1DD37437006A1427 /* CustomInfoWindow.swift */; };
 		0CE1845A1DB5601C007A158C /* HotlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE184591DB5601C007A158C /* HotlineViewController.swift */; };
 		0CE1845C1DBF964C007A158C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE1845B1DBF964C007A158C /* MapKit.framework */; };
 		0CF9B4FC24BE4908006AF425 /* FacilitiesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9B4FB24BE4908006AF425 /* FacilitiesAPI.swift */; };
@@ -46,37 +36,6 @@
 		0CF9B50224BE49C3006AF425 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9B50124BE49C3006AF425 /* ServiceCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0CA23C0E1DBFDF42006846F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0A76440F1B676C2300BF1A2D;
-			remoteInfo = Demo;
-		};
-		0CA23C101DBFDF42006846F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0A7644241B676C2300BF1A2D;
-			remoteInfo = DropDownTests;
-		};
-		0CA23C121DBFDF42006846F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0AB5D8711D0EEECD002D3A17;
-			remoteInfo = DropDown;
-		};
-		0CA23C171DBFE7D9006846F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AB5D8701D0EEECD002D3A17;
-			remoteInfo = DropDown;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		0CB953BD1D9C25AE0022CD92 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -84,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0CA23C191DBFEB29006846F4 /* DropDown.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,9 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C21078124ABD30D00569831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = YouthServices/Assets.xcassets; sourceTree = "<group>"; };
-		0C312BA51DBF9B8700FF4962 /* YouthServices copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "YouthServices copy-Info.plist"; path = "/Users/southamptondev/Documents/Development/YouthServices/YouthServices copy-Info.plist"; sourceTree = "<absolute>"; };
-		0C4464501D9416FB00CFC09C /* YouthServices-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouthServices-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C21078124ABD30D00569831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MyTownInfo/Assets.xcassets; sourceTree = "<group>"; };
 		0C4DBB3024ABB5C300D36E4D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		0C4DBB3224ABB60400D36E4D /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		0C7216021D92C5340049A891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,32 +59,23 @@
 		0C7216171D93104D0049A891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C7216191D9310550049A891 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0C72161B1D93105E0049A891 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		0C72161D1D9310670049A891 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		0C72161F1D93106F0049A891 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		0C7216211D9310770049A891 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		0C7216231D9310800049A891 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		0C7216251D9310860049A891 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		0C7216271D93108C0049A891 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0C7216291D9310950049A891 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0C72162B1D93109F0049A891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0C72163A1D9316230049A891 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
 		0C8DE63E1E6608CA009705CE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
-		0C8E75471D8AD8BA008AA187 /* YouthServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouthServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8E75471D8AD8BA008AA187 /* MyTownInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTownInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8E754A1D8AD8BA008AA187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C8E754C1D8AD8BA008AA187 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		0C8E754E1D8AD8BA008AA187 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0C8E75511D8AD8BA008AA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C8E75561D8AD8BA008AA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DropDown.xcodeproj; path = DropDown/DropDown.xcodeproj; sourceTree = "<group>"; };
-		0CB8D4031D93176D00C86131 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = "../../../Downloads/5a212b0fa429156f-GoogleMaps-2.0.1 5/Subspecs/Base/Frameworks/GoogleMapsBase.framework"; sourceTree = "<group>"; };
-		0CB8D4051D93177000C86131 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../../Downloads/5a212b0fa429156f-GoogleMaps-2.0.1 5/Subspecs/Maps/Frameworks/GoogleMaps.framework"; sourceTree = "<group>"; };
-		0CB8D4071D93177300C86131 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = "../../../Downloads/5a212b0fa429156f-GoogleMaps-2.0.1 5/Subspecs/Maps/Frameworks/GoogleMapsCore.framework"; sourceTree = "<group>"; };
-		0CD49E2924BDE04800AEDA7F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		0CD7EB261DD3707C006A1427 /* CustomInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
-		0CD7EB2A1DD37437006A1427 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
 		0CE184591DB5601C007A158C /* HotlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotlineViewController.swift; sourceTree = "<group>"; };
 		0CE1845B1DBF964C007A158C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		0CE1845D1DBF96B2007A158C /* YouthServices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouthServices.entitlements; sourceTree = "<group>"; };
+		0CE1845D1DBF96B2007A158C /* MyTownInfo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTownInfo.entitlements; sourceTree = "<group>"; };
 		0CF9B4FB24BE4908006AF425 /* FacilitiesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilitiesAPI.swift; sourceTree = "<group>"; };
 		0CF9B4FD24BE492B006AF425 /* Facility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
 		0CF9B4FF24BE494B006AF425 /* FacilityStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityStore.swift; sourceTree = "<group>"; };
@@ -142,7 +89,6 @@
 			files = (
 				0C4DBB3124ABB5C300D36E4D /* Metal.framework in Frameworks */,
 				0C4DBB3324ABB60400D36E4D /* MetalKit.framework in Frameworks */,
-				0CA23C161DBFE50B006846F4 /* DropDown.framework in Frameworks */,
 				0C72162C1D93109F0049A891 /* UIKit.framework in Frameworks */,
 				0C72162A1D9310950049A891 /* SystemConfiguration.framework in Frameworks */,
 				0C7216281D93108C0049A891 /* QuartzCore.framework in Frameworks */,
@@ -151,15 +97,9 @@
 				0C7216201D93106F0049A891 /* ImageIO.framework in Frameworks */,
 				0CE1845C1DBF964C007A158C /* MapKit.framework in Frameworks */,
 				0C72161C1D93105E0049A891 /* CoreText.framework in Frameworks */,
-				0CB8D4081D93177300C86131 /* GoogleMapsCore.framework in Frameworks */,
-				0CB8D4061D93177000C86131 /* GoogleMaps.framework in Frameworks */,
-				0C72163B1D9316230049A891 /* GoogleMapsBase.framework in Frameworks */,
-				0C925A8824BDF5E700FC7196 /* OpenGLES.framework in Frameworks */,
 				0C72161A1D9310550049A891 /* CoreLocation.framework in Frameworks */,
-				0CB8D4041D93176D00C86131 /* GoogleMapsBase.framework in Frameworks */,
 				0C7216181D93104D0049A891 /* CoreGraphics.framework in Frameworks */,
 				0C7216161D9310410049A891 /* CoreData.framework in Frameworks */,
-				0C925A8724BDF5D600FC7196 /* GLKit.framework in Frameworks */,
 				0C7216141D9310350049A891 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +123,6 @@
 				0C8E754C1D8AD8BA008AA187 /* MasterViewController.swift */,
 				0C8E754E1D8AD8BA008AA187 /* DetailViewController.swift */,
 				0CE184591DB5601C007A158C /* HotlineViewController.swift */,
-				0CD7EB2A1DD37437006A1427 /* CustomInfoWindow.swift */,
 				0C8DE63E1E6608CA009705CE /* CalendarViewController.swift */,
 			);
 			name = Controllers;
@@ -195,19 +134,14 @@
 				0C4DBB3224ABB60400D36E4D /* MetalKit.framework */,
 				0C4DBB3024ABB5C300D36E4D /* Metal.framework */,
 				0CE1845B1DBF964C007A158C /* MapKit.framework */,
-				0CB8D4071D93177300C86131 /* GoogleMapsCore.framework */,
-				0CB8D4051D93177000C86131 /* GoogleMaps.framework */,
-				0CB8D4031D93176D00C86131 /* GoogleMapsBase.framework */,
 				0C7216131D9310350049A891 /* Accelerate.framework */,
 				0C7216151D9310410049A891 /* CoreData.framework */,
 				0C7216171D93104D0049A891 /* CoreGraphics.framework */,
 				0C7216191D9310550049A891 /* CoreLocation.framework */,
 				0C72161B1D93105E0049A891 /* CoreText.framework */,
-				0C72161D1D9310670049A891 /* GLKit.framework */,
 				0C72161F1D93106F0049A891 /* ImageIO.framework */,
 				0C7216211D9310770049A891 /* libc++.tbd */,
 				0C7216231D9310800049A891 /* libz.tbd */,
-				0C7216251D9310860049A891 /* OpenGLES.framework */,
 				0C7216271D93108C0049A891 /* QuartzCore.framework */,
 				0C7216291D9310950049A891 /* SystemConfiguration.framework */,
 				0C72162B1D93109F0049A891 /* UIKit.framework */,
@@ -218,58 +152,43 @@
 		0C8E753E1D8AD8BA008AA187 = {
 			isa = PBXGroup;
 			children = (
-				0CD49E2924BDE04800AEDA7F /* GoogleMaps.bundle */,
 				0C21078124ABD30D00569831 /* Assets.xcassets */,
-				0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */,
-				0C8E75491D8AD8BA008AA187 /* YouthServices */,
+				0C8E75491D8AD8BA008AA187 /* MyTownInfo */,
 				0C8E75481D8AD8BA008AA187 /* Products */,
-				0C72163A1D9316230049A891 /* GoogleMapsBase.framework */,
 				0C7216041D930D080049A891 /* Frameworks */,
-				0C4464501D9416FB00CFC09C /* YouthServices-Bridging-Header.h */,
-				0C312BA51DBF9B8700FF4962 /* YouthServices copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		0C8E75481D8AD8BA008AA187 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C8E75471D8AD8BA008AA187 /* YouthServices.app */,
+				0C8E75471D8AD8BA008AA187 /* MyTownInfo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C8E75491D8AD8BA008AA187 /* YouthServices */ = {
+		0C8E75491D8AD8BA008AA187 /* MyTownInfo */ = {
 			isa = PBXGroup;
 			children = (
 				0CF9B4FF24BE494B006AF425 /* FacilityStore.swift */,
 				0CF9B4FD24BE492B006AF425 /* Facility.swift */,
 				0CF9B4FB24BE4908006AF425 /* FacilitiesAPI.swift */,
-				0CE1845D1DBF96B2007A158C /* YouthServices.entitlements */,
+				0CE1845D1DBF96B2007A158C /* MyTownInfo.entitlements */,
 				0C7216021D92C5340049A891 /* Info.plist */,
 				0C63B2421D8AE28D00E10B21 /* Controllers */,
 				0C8E75551D8AD8BA008AA187 /* LaunchScreen.storyboard */,
 				0C63B2411D8AE27600E10B21 /* Views */,
 				0C8E754A1D8AD8BA008AA187 /* AppDelegate.swift */,
 			);
-			path = YouthServices;
-			sourceTree = "<group>";
-		};
-		0CA23C091DBFDF42006846F4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0CA23C0F1DBFDF42006846F4 /* Demo.app */,
-				0CA23C111DBFDF42006846F4 /* DropDownTests.xctest */,
-				0CA23C131DBFDF42006846F4 /* DropDown.framework */,
-			);
-			name = Products;
+			path = MyTownInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C8E75461D8AD8BA008AA187 /* YouthServices */ = {
+		0C8E75461D8AD8BA008AA187 /* MyTownInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C8E755B1D8AD8BA008AA187 /* Build configuration list for PBXNativeTarget "YouthServices" */;
+			buildConfigurationList = 0C8E755B1D8AD8BA008AA187 /* Build configuration list for PBXNativeTarget "MyTownInfo" */;
 			buildPhases = (
 				0C8E75431D8AD8BA008AA187 /* Sources */,
 				0C8E75441D8AD8BA008AA187 /* Frameworks */,
@@ -279,11 +198,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				0CA23C181DBFE7D9006846F4 /* PBXTargetDependency */,
 			);
-			name = YouthServices;
+			name = MyTownInfo;
 			productName = YouthServices;
-			productReference = 0C8E75471D8AD8BA008AA187 /* YouthServices.app */;
+			productReference = 0C8E75471D8AD8BA008AA187 /* MyTownInfo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +232,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C8E75421D8AD8BA008AA187 /* Build configuration list for PBXProject "YouthServices" */;
+			buildConfigurationList = 0C8E75421D8AD8BA008AA187 /* Build configuration list for PBXProject "MyTownInfo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,42 +243,12 @@
 			mainGroup = 0C8E753E1D8AD8BA008AA187;
 			productRefGroup = 0C8E75481D8AD8BA008AA187 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0CA23C091DBFDF42006846F4 /* Products */;
-					ProjectRef = 0CA23C081DBFDF42006846F4 /* DropDown.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				0C8E75461D8AD8BA008AA187 /* YouthServices */,
+				0C8E75461D8AD8BA008AA187 /* MyTownInfo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0CA23C0F1DBFDF42006846F4 /* Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Demo.app;
-			remoteRef = 0CA23C0E1DBFDF42006846F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0CA23C111DBFDF42006846F4 /* DropDownTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DropDownTests.xctest;
-			remoteRef = 0CA23C101DBFDF42006846F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0CA23C131DBFDF42006846F4 /* DropDown.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DropDown.framework;
-			remoteRef = 0CA23C121DBFDF42006846F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0C8E75451D8AD8BA008AA187 /* Resources */ = {
@@ -371,7 +259,6 @@
 				0CD7EB271DD3707C006A1427 /* CustomInfoWindow.xib in Resources */,
 				0C8E75521D8AD8BA008AA187 /* Main.storyboard in Resources */,
 				0C21078224ABD30E00569831 /* Assets.xcassets in Resources */,
-				0CD49E2A24BDE04800AEDA7F /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +273,6 @@
 				0C8E754F1D8AD8BA008AA187 /* DetailViewController.swift in Sources */,
 				0CF9B4FE24BE492C006AF425 /* Facility.swift in Sources */,
 				0CE1845A1DB5601C007A158C /* HotlineViewController.swift in Sources */,
-				0CD7EB2B1DD37437006A1427 /* CustomInfoWindow.swift in Sources */,
 				0CF9B4FC24BE4908006AF425 /* FacilitiesAPI.swift in Sources */,
 				0C8E754D1D8AD8BA008AA187 /* MasterViewController.swift in Sources */,
 				0CF9B50224BE49C3006AF425 /* ServiceCell.swift in Sources */,
@@ -396,14 +282,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0CA23C181DBFE7D9006846F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DropDown;
-			targetProxy = 0CA23C171DBFE7D9006846F4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0C8E75501D8AD8BA008AA187 /* Main.storyboard */ = {
@@ -476,7 +354,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,7 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,7 +416,6 @@
 		0C8E755C1D8AD8BA008AA187 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -550,13 +427,13 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = YouthServices/Info.plist;
+				INFOPLIST_FILE = MyTownInfo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.YouthServices;
+				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.MyTownInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "YouthServices-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -566,7 +443,6 @@
 		0C8E755D1D8AD8BA008AA187 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -577,13 +453,13 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = YouthServices/Info.plist;
+				INFOPLIST_FILE = MyTownInfo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.YouthServices;
+				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.MyTownInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "YouthServices-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};
@@ -592,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C8E75421D8AD8BA008AA187 /* Build configuration list for PBXProject "YouthServices" */ = {
+		0C8E75421D8AD8BA008AA187 /* Build configuration list for PBXProject "MyTownInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C8E75591D8AD8BA008AA187 /* Debug */,
@@ -601,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C8E755B1D8AD8BA008AA187 /* Build configuration list for PBXNativeTarget "YouthServices" */ = {
+		0C8E755B1D8AD8BA008AA187 /* Build configuration list for PBXNativeTarget "MyTownInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C8E755C1D8AD8BA008AA187 /* Debug */,

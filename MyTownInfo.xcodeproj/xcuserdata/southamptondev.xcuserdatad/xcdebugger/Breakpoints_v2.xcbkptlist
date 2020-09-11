@@ -1242,5 +1242,177 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87685CD0-BC2D-450D-8D38-92DDEEDE3104"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTownInfo/FacilitiesAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "facilitiesFromJSONData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "247152FA-C6A0-47A1-88A8-B0893546E392"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTownInfo/FacilitiesAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "facilitiesFromJSONData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "813AFA6A-73CB-4187-A0AD-6DB83C2240B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTownInfo/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "getSortedByDistance(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTownInfo/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - a0fb1c34420e59b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.nameField.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - 687f2d07f526e584"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.nameField.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - 74776761400920b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.nameField.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - 3cb2b99c5bb046ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.nameField.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - 4a01e66656b2e80c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyTownInfo.DetailViewController"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "31E8E8DC-6B03-4A14-8B80-CF126B947EE4 - acbf8d9392d3a317"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTownInfo.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyTownInfo.DetailViewController&gt;"
+                  moduleName = "MyTownInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/southamptondev/Development/MyTownInfo/MyTownInfo/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "854488EF-9E5C-4BCA-BBF1-1251A91E90B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTownInfo/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
