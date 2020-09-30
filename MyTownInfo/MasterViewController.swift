@@ -21,7 +21,7 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 
-class MasterViewController: UITableViewController, CLLocationManagerDelegate {
+class MasterViewController: UITableViewController {
 
     var facilityStore: FacilityStore!
     var facilities = [Facility]();
@@ -49,11 +49,7 @@ class MasterViewController: UITableViewController, CLLocationManagerDelegate {
             let controllers = split.viewControllers
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
-
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest // GPS
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
+ 
         
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 65
@@ -209,27 +205,7 @@ class MasterViewController: UITableViewController, CLLocationManagerDelegate {
     }
     
 
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
-        let location = locations.last
-        let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
-        
-        // Get user's current location
-        self.currLocation = CLLocation(latitude: center.latitude, longitude: center.longitude)
-        self.locationManager.stopUpdatingLocation()
-
-    }
-    
-    
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-
-        getFacilities()
-    }
-    private func locationManager(manager: CLLocationManager, didFailWithError error: NSError)  {
-        print ("Errors:  " + error.localizedDescription)
-    }
-    
+ 
  
     func getSortedByDistance(_ facilities: [Facility]) -> [Facility] {
         
@@ -277,86 +253,29 @@ class MasterViewController: UITableViewController, CLLocationManagerDelegate {
     
   
     @objc func phoneLaunchImageTapped(_ sender: UITapGestureRecognizer)  {
-        /*
+    
         var phone: String!
-        var facility: Facility!
-        
-        let touch = sender.location(in: tableView)
-        if let indexPath = tableView.indexPathForRow(at: touch) {
-            if(isFiltered) {
-                facility = filteredFacilities[(indexPath as NSIndexPath).row]
-            } else {
-                facility = facilities[(indexPath as NSIndexPath).row]
-            }
-            
-            if facility.Telephone! != "" {
-                
-                phone = facility.Telephone!
-                phone = phone.replacingOccurrences(of: " " , with: "")
-                phone = phone.replacingOccurrences(of: "(" , with: "")
-                phone = phone.replacingOccurrences(of: ")" , with: "")
-                phone = phone.replacingOccurrences(of: "-" , with: "")
-                
-                let url:URL = URL(string: "tel://" + phone)!
-                UIApplication.shared.open(url)
-                
-            } else {
-                
-                let alertController = UIAlertController(title: "Phone Number Not Supplied", message: "Click OK to continue", preferredStyle: .alert)
-                
-                let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
-                    UIAlertAction in
-                    //NSLog("OK Pressed")
-                }
-                
-                alertController.addAction(okAction)
-                self.present(alertController, animated: true, completion: nil)
-                
-            }
-        }
-         */
+     
+        phone = "631-702-1994"
+        let url:URL = URL(string: "tel://" + phone)!
+        UIApplication.shared.open(url)
+ 
     }
     
     
     @objc func emailLaunchImageTapped(_ sender: UITapGestureRecognizer)  {
-        /*
-        var email: String!
-        var facility: Facility!
-        
-        let touch = sender.location(in: tableView)
-        if let indexPath = tableView.indexPathForRow(at: touch) {
-            if(isFiltered) {
-                facility = filteredFacilities[(indexPath as NSIndexPath).row]
-            } else {
-                facility = facilities[(indexPath as NSIndexPath).row]
-            }
 
-            if facility.Email! != "" {
-                email = facility.Email!
+        var email: String!
+ 
+        email = "gissupport@southamptontownny.gov"
                 
-                let url = URL(string: "mailto:\(email!)")
-                UIApplication.shared.open(url!)
-                
-            } else {
-                
-                let alertController = UIAlertController(title: "Email Address Not Supplied", message: "Click OK to continue", preferredStyle: .alert)
-                
-                let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
-                    UIAlertAction in
-                    //NSLog("OK Pressed")
-                }
-                
-                alertController.addAction(okAction)
-                self.present(alertController, animated: true, completion: nil)
-                
-            }
-        }
-    */
+        let url = URL(string: "mailto:\(email!)")
+        UIApplication.shared.open(url!)
     }
 
     
     @objc func browserLaunchImageTapped(_ sender: UITapGestureRecognizer)  {
-        /*
+   
         var website: String!
         var facility: Facility!
         
@@ -368,17 +287,17 @@ class MasterViewController: UITableViewController, CLLocationManagerDelegate {
                 facility = facilities[(indexPath as NSIndexPath).row]
             }
             
-            if facility.WebLink! != ""  {
-                website = facility.WebLink!
+            if facility.URL! != ""  {
+                website = facility.URL!
             } else {
-                website = "http://www.southamptontownny.gov"
+                website = "https://www.southamptontownny.gov"
             }
         }
         
         if let url = URL(string: website) {
             UIApplication.shared.open(url)
         }
-      */
+  
     }
     
 

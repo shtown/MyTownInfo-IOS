@@ -131,33 +131,33 @@ class DetailViewController: UIViewController, UIPopoverPresentationControllerDel
         lbutton.target(forAction: #selector(DetailViewController.showContactEmail), withSender: self)
         lbutton.addTarget(self, action: #selector(DetailViewController.showContactEmail), for: UIControl.Event.touchUpInside)
         
-                //making a button
+        /*        //making a button
         let calbutton: UIButton = UIButton()
         calbutton.setImage(UIImage(named: "Calendar.png"), for: .normal)
         calbutton.frame = CGRect(x: -160,y: 0, width: 40, height: 40)
         calbutton.target(forAction: #selector(DetailViewController.showContactEmail), withSender: self)
         calbutton.addTarget(self, action: #selector(DetailViewController.calendarButtonTapped), for: UIControl.Event.touchUpInside)
-        
+
         let rbutton: UIButton = UIButton()
         rbutton.setImage(UIImage(named: "Hotline.png"), for: .normal)
         rbutton.frame = CGRect(x: -80,y: 0, width: 40, height: 40)
         rbutton.target(forAction: #selector(DetailViewController.hotlineButtonTapped), withSender: self)
         rbutton.addTarget(self, action: #selector(DetailViewController.hotlineButtonTapped), for: UIControl.Event.touchUpInside)
-        
+        */
         //making a UIBarbuttonItem on UINavigationBar
         let leftItem:UIBarButtonItem = UIBarButtonItem()
         leftItem.customView = lbutton
         
-        //making a UIBarbuttonItem on UINavigationBar
+        /* //making a UIBarbuttonItem on UINavigationBar
         let calItem:UIBarButtonItem = UIBarButtonItem()
         calItem.customView = calbutton
-        
+
         let rightItem:UIBarButtonItem = UIBarButtonItem()
         rightItem.customView = rbutton
-
-        self.navigationItem.setRightBarButtonItems([leftItem,rightItem,calItem], animated:true)
+        */
+        self.navigationItem.setRightBarButtonItems([leftItem], animated:true)
         self.navigationItem.setHidesBackButton(false, animated:true)
-        
+         
 
         self.configureView()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,10 +38,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="77N-Hg-HEt" customClass="WkWebView">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IU9-QM-xe5">
-                                        <rect key="frame" x="20" y="20" width="335" height="583"/>
+                                        <rect key="frame" x="20" y="20" width="335" height="627"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <wkWebViewConfiguration key="configuration">
                                             <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -98,21 +98,21 @@
             <objects>
                 <tableViewController title="Websites" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" customModule="MyTownInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="124" sectionHeaderHeight="22" sectionFooterHeight="22" id="r7i-6Z-zg0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServiceCell" rowHeight="124" id="MHu-gL-QUf" customClass="ServiceCell" customModule="MyTownInfo" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="124"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="124"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MHu-gL-QUf" id="7sg-uB-U3L">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="124"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho8-jp-1JL">
-                                            <rect key="frame" x="37" y="11" width="247" height="20.5"/>
+                                            <rect key="frame" x="33" y="11" width="246" height="20.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="247" id="yen-ac-PB3"/>
+                                                <constraint firstAttribute="width" constant="246" id="yen-ac-PB3"/>
                                             </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment content="Label">
@@ -124,26 +124,23 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdS-Uw-Kpn">
-                                            <rect key="frame" x="37" y="43.5" width="247" height="27.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdS-Uw-Kpn">
+                                            <rect key="frame" x="37" y="43.5" width="246" height="37.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="139" translatesAutoresizingMaskIntoConstraints="NO" id="ye8-5c-SCO">
-                                            <rect key="frame" x="37" y="89" width="513" height="24"/>
+                                        <stackView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="ye8-5c-SCO">
+                                            <rect key="frame" x="33" y="89" width="238" height="24"/>
                                             <subviews>
                                                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WebBrowserIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-jc-kgB">
                                                     <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
                                                 </imageView>
                                                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PhoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="mN7-LJ-P6F">
-                                                    <rect key="frame" x="163" y="0.0" width="24" height="24"/>
+                                                    <rect key="frame" x="107" y="0.0" width="24" height="24"/>
                                                 </imageView>
                                                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmailIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wak-dC-LOp">
-                                                    <rect key="frame" x="326" y="0.0" width="24" height="24"/>
-                                                </imageView>
-                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DirectionsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cOh-Pb-D3c">
-                                                    <rect key="frame" x="489" y="0.0" width="24" height="24"/>
+                                                    <rect key="frame" x="214" y="0.0" width="24" height="24"/>
                                                 </imageView>
                                             </subviews>
                                         </stackView>
@@ -151,18 +148,17 @@
                                     <constraints>
                                         <constraint firstItem="ho8-jp-1JL" firstAttribute="top" secondItem="7sg-uB-U3L" secondAttribute="topMargin" id="0nn-Aq-On4"/>
                                         <constraint firstItem="ho8-jp-1JL" firstAttribute="leading" secondItem="7sg-uB-U3L" secondAttribute="leadingMargin" constant="17" id="6J5-9c-DLS"/>
-                                        <constraint firstItem="ye8-5c-SCO" firstAttribute="top" secondItem="vdS-Uw-Kpn" secondAttribute="bottom" constant="18" id="8OU-fs-vXh"/>
+                                        <constraint firstItem="ye8-5c-SCO" firstAttribute="top" secondItem="vdS-Uw-Kpn" secondAttribute="bottom" constant="8" id="8OU-fs-vXh"/>
                                         <constraint firstItem="vdS-Uw-Kpn" firstAttribute="top" secondItem="ho8-jp-1JL" secondAttribute="bottom" constant="12" id="Iqy-Tc-3CD"/>
                                         <constraint firstItem="ye8-5c-SCO" firstAttribute="bottom" secondItem="7sg-uB-U3L" secondAttribute="bottomMargin" id="JFz-Qd-MUm"/>
-                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="leading" secondItem="ho8-jp-1JL" secondAttribute="leading" id="RIF-ZA-ezj"/>
-                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="leading" secondItem="ye8-5c-SCO" secondAttribute="leading" id="Sba-yH-i7I"/>
-                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="trailing" secondItem="ho8-jp-1JL" secondAttribute="trailing" id="lqG-E9-vdP"/>
+                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="leading" secondItem="ho8-jp-1JL" secondAttribute="leading" constant="4" id="RIF-ZA-ezj"/>
+                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="leading" secondItem="ye8-5c-SCO" secondAttribute="leading" constant="4" id="Sba-yH-i7I"/>
+                                        <constraint firstItem="vdS-Uw-Kpn" firstAttribute="trailing" secondItem="ho8-jp-1JL" secondAttribute="trailing" constant="4" id="lqG-E9-vdP"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="descView" destination="vdS-Uw-Kpn" id="fYl-Oj-ubr"/>
                                     <outlet property="launchBrowserIcon" destination="ycx-jc-kgB" id="1uF-Hr-0Gd"/>
-                                    <outlet property="launchDirectionsIcon" destination="cOh-Pb-D3c" id="rPG-Kz-eKL"/>
                                     <outlet property="launchEmailIcon" destination="wak-dC-LOp" id="OEI-Dg-dVx"/>
                                     <outlet property="launchTelIcon" destination="mN7-LJ-P6F" id="mt0-4I-v6A"/>
                                     <outlet property="titleView" destination="ho8-jp-1JL" id="Eud-UU-kWH"/>
@@ -202,10 +198,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g3u-2V-7p3"/>
+        <segue reference="Tll-UG-LXB"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="DirectionsIcon" width="24" height="24"/>
         <image name="EmailIcon" width="24" height="24"/>
         <image name="PhoneIcon" width="24" height="24"/>
         <image name="WebBrowserIcon" width="24" height="24"/>
